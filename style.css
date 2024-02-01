@@ -32,3 +32,8 @@ h3{
 h2{
     color: brown;
 }
+#conteiner{
+    display: flex;
+    height: 10px;
+    width: 500px;
+}
