@@ -2,46 +2,33 @@
 body{
     background-color: hsl(30, 54%, 90%);
 }
-.fundo .imagem{
-    height: 35vh;
-    display: flex;
-    justify-content: center;
-}
-
-.fundo .imagem img{
+img{
     width: 80%;
     margin: auto;
+    display: block;
     border-radius: 20px;
+    margin-top: 10%;
 }
-.fundo {
+#fundo {
     background-color: hsl(0, 0%, 100%);
     margin: auto;
     width: 700px;
     border-radius: 20px;
 }
-.others{
-    margin-left:10%;   
-    margin-right: 10%;
-    margin-top: 10%;
-}
-/* Container usando positions css */
-.preparation{
+#preparation{
     background-color: hsl(330, 100%, 98%);
     margin-left:10%;   
     margin-right: 10%;
     margin-top: 10%;
 }
-.preparation-item{
-
+#others{
+    margin-left:10%;   
+    margin-right: 10%;
+    margin-top: 10%;
 }
 h3{
     color: rgb(171, 25, 149);
 }
 h2{
     color: brown;
-}
-#conteiner{
-    display: flex;
-    height: 500px;
-    width: 500px;
 }
